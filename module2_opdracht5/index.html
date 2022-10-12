@@ -45,27 +45,23 @@
             <option value="4">4</option>
           </p>
         </form>
+
         <form id="textarea">
           <h2>textarea</h2>
           <p><textarea rows="7" cols="25" name="opmerking"></textarea></p>
         </form>
-        <form id="last">
-          <h2>submit</h2>
-          <p><input type="submit" value="verzenden"</p>
-        </form>
-      </div>
-    </div>
-    <div>
-        <form>
+        <form class="text_field">
             <fieldset>
                 <legend><h2>tekstveld</h2></legend>
                 <p><label for="voornaam">voornaam</label><input id="voornaam" type="text" name="voornaam"/></p>
                 <p><label for="achternaam">achternaam</label><input type="text" name="achternaam"/></p>
                 <p><label for="password">password</label><input type="password" name="pwd" required</p>
             </fieldset>
+            <form class="submit_button">
+              <p><input type="submit" value="verzenden"</p>
+            </form>
         </form>
     </div>
-    <hr id="border">
   </body>
 </html>
 <!DOCTYPE html>
@@ -77,6 +73,7 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+  <div class="space"></div>
     <div>
       <h1 id="header">stuur een bericht</h1>
         <form>

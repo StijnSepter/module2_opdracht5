@@ -1,5 +1,5 @@
 html{
-    background-image:linear-gradient(rgba(229, 229, 230, 0.933),rgba(199, 214, 214, 0));
+    background-color: rgba(0, 0, 0, 0.348);
 }
 
 h1{
@@ -28,45 +28,50 @@ label{
     margin-left: 200px;
 }
 
-fieldset{
-    background-color: rgba(127, 255, 212, 0.46);
-}
-
 .happy{
     float: right;
-    padding-right: 200px;
-    background-color: rgba(19, 197, 197, 0.515);
+    padding-right: 500px;
 }
 
 #radio{
-    float: left;
-    padding-left: 200px;
-    background-color: rgba(19, 197, 197, 0.515);
+    float: right;
+    padding-right: 750px;
 }
 
 #checkbox{
-    float: center;
-    padding-left: 500px;
+    float: right;
+    padding-right:750px;
 }
 
 #dropdown{
-    margin-top: 50px;
-    padding-left: 100px;
-    padding-top: 20px;
-
+    float: right;
+    padding-right: 550px;
 }
 
 #textarea{
+    float: left;
+    padding-left: 650px;
+}
+
+.submitbutton{
     float: right;
-    padding-right: 10px;
+    padding-right: 600px;
+    width: 150px;
+    height: 75px;
 }
 
-#last{
-    align-items: center;
-
+.text_field{
+    float: right;
+    padding: 660px;
+    padding-top: 0px;
 }
 
-#border{
-    margin: 50px;
-    width: auto;
+.submit_button{
+    float: right;
+    padding-right: 660px;
+    padding-top:0;
+}
+
+.space{
+    margin-top: 800px;
 }
